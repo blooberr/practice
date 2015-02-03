@@ -23,6 +23,7 @@ func TwoSum(target int, input []int) {
 		} else {
 			fmt.Printf("key is %d val is %d \n", key, m[key])
 			fmt.Printf("other key is %d %d \n", lookup, val)
+			break
 		}
     }
 }
